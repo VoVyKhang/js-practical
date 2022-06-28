@@ -4,86 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Card</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Modal</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <div class="card">
-        <div class="card__img">
-            <img src="./assets/img/Lisa.jpg" alt="">
+    <button class="open-modal-btn">Open Modal</button>
+    <div class="modal hide">
+        <div class="modal__inner">
+            <div class="modal__header">
+                <p>Welcome to my modal</p>
+                <i class="fas fa-times modal__header-icon"></i>
+            </div>
+            <div class="modal__body">
+                <h2>Modal</h2>
+                <P>This is body part of modal</P>
+            </div>
+            <div class="modal__footer">
+                <button class="modal__footer-close">Close</button>
+            </div>
         </div>
-        <h2 class="card__name">LISA</h2>
-        <p class="card__description">Singer</p>
-        <div class="card__socials">
-            <a href="#">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-youtube"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-        <button class="card__button">
-            Contact me
-        </button>
     </div>
-
-    <!-- Card Profile -->
-    <div class="card">
-        <div class="card__img">
-            <img src="./assets/img/Yeji.jpg" alt="">
-        </div>
-        <h2 class="card__name">Yeji</h2>
-        <p class="card__description">Singer</p>
-        <div class="card__socials">
-            <a href="#">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-youtube"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-        <button class="card__button">
-            Contact me
-        </button>
-    </div>
-
-    <!-- Card Profile -->
-    <div class="card">
-        <div class="card__img">
-            <img src="./assets/img/hoa.jpg" alt="">
-        </div>
-        <h2 class="card__name">Hoa</h2>
-        <p class="card__description">Influencer</p>
-        <div class="card__socials">
-            <a href="#">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-youtube"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-        <button class="card__button">
-            Contact me
-        </button>
-    </div>
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
